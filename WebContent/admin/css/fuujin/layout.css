@@ -1,0 +1,86 @@
+/*
+Opmerking:Algemene stylesheet voor BE interactive-CMS
+
+Auteur:		Jeroen Evers
+Bedrijf:	BE interactive
+Contact:	jeroen@bei-nteractive.nl
+*/
+
+
+/* lay-out containers */
+#container {
+	background-color:#fff;
+	text-align:left;
+}
+	#header {
+		background:#007cc3 url('img/header_achter.gif') repeat-x left top;
+		height:80px;
+	}
+		#navigatie_top {
+			padding:0px 20px 0 40px;
+		}
+			#ribbon {
+				background:url('img/ribbon.png') no-repeat left top;
+				height:80px;
+				margin-left:-6px;
+				position:relative;
+			}
+				#loading {
+					display:none;
+					position:absolute;
+					top:30px;
+					left:90px;
+				}
+				#loading_sprite {
+					display:none;
+					background:url('img/logo_animatie.gif') no-repeat left top;
+					position:absolute;
+					top:25px;
+					left:70px;
+					width:87px;
+					height:49px;
+				}
+				#be_logo {
+					background:url('img/be_logo.gif') no-repeat left top;
+					position:absolute;
+					top:25px;
+					left:70px;
+					width:87px;
+					height:49px;
+				}
+	#body {
+		margin:0px 20px 0 40px;
+	}
+		#navigatie_container {
+			float:left;
+			background:#fff url('img/navigatie_schaduw_rechts.gif') no-repeat right top;
+			width:205px;
+		}
+			#navigatie {
+				background:url('img/navigatie_schaduw_links.gif') no-repeat -4px 0;
+				min-height:600px;
+				padding:24px 0 0 0;
+			}
+		#content {
+			padding:0 0 2em 220px;
+			*padding:0 0 2em 20px; /* IE7 */
+			padding-top:26px;
+			min-height:600px;
+			background:#fff url('img/achter_logo.gif') no-repeat right bottom;
+		}
+#footer {
+	position:relative;
+	height:100px;
+}
+	#versie {
+		position:absolute;
+		top:4px;
+		right:40px;
+		color:#fff;
+	}
+	
+	
+.clear {
+	clear:both;
+	height:0px;
+}

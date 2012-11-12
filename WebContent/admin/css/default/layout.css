@@ -1,0 +1,68 @@
+/*
+Opmerking:Algemene stylesheet voor BE interactive-CMS
+
+Auteur:		Jeroen Evers
+Bedrijf:	BE interactive
+Contact:	jeroen@bei-nteractive.nl
+*/
+
+
+/* lay-out containers */
+#top {
+	height:20px;
+}
+#container {
+	margin:0px auto;
+	xwidth:1040px;
+	xbackground:url('img/achter_schaduw.gif') no-repeat center top;
+}
+#header {
+	background-color:#666;
+	height:80px;
+	position:relative;
+}
+#main {
+	text-align:left;
+	margin:0px auto;
+	width:1040px;
+	background-color:#fff;
+	border:2px solid #ddd;
+}
+#navigatie {
+	float:left;
+	width:200px;
+}
+#content {
+	padding:5px 0 10px 14px;
+	float:right;
+	width:825px;
+	min-height:500px;
+	background:#fff url('img/content_achter.gif') no-repeat left top;
+	border-left:1px solid #fff;
+}
+/*\*/
+* html #content {
+	height:500px;
+}
+#footer {
+	text-align:right;
+	margin:2px auto;
+	width:904px;
+	height:13px;
+}
+#loading {
+	position:absolute;
+	top:30px;
+	left:10px;
+	display:none;
+}
+#versie {
+	position:absolute;
+	top:10px;
+	left:10px;
+	color:#fff;
+}
+#clear {
+	clear:both;
+	height:0px;
+}

@@ -1,0 +1,186 @@
+/*
+Opmerking:Algemene stylesheet voor BE interactive-CMS
+
+Auteur:		Jeroen Evers
+Bedrijf:	BE interactive
+Contact:	jeroen@bei-nteractive.nl
+*/
+
+
+/* kennisbank tree*/
+ul#kennisbank_tree {
+    margin:5px 0 5px 0;
+    padding:0 30px 0 0;
+    border-top:1px solid #666;
+    width:620px;
+    list-style-type:none;
+}
+ul#kennisbank_tree ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background:url('../../img/icons/tree.png') top left repeat-y;
+}
+ul#kennisbank_tree li {
+    margin:0;
+    padding:0;
+    position:relative;
+}
+ul#kennisbank_tree ul li {
+    padding:0 0 0 25px;
+    background:url('../../img/icons/tree_b.png') 12px 0px no-repeat;
+}
+ul#kennisbank_tree li.cat a {
+    xbackground:url('../../img/icons/folder_dicht.png') 5px 4px no-repeat;
+}
+ul#kennisbank_tree li.cat a.open {
+    xbackground:url('../../img/icons/folder_open.png') 5px 4px no-repeat;
+    color:#000;
+}
+ul#kennisbank_tree li.cat a.dicht {
+    xbackground:url('../../img/icons/folder_dicht.png') 5px 4px no-repeat;
+    color:#000;
+}
+ul#kennisbank_tree li.cat a:hover {
+    color:#000;
+    background-color:#f4f4f4;
+}
+ul#kennisbank_tree li.file a {
+    background:url('../../img/icons/file.png') 0px 6px no-repeat;
+}
+ul#kennisbank_tree li a {
+    display:inline-block;
+    text-decoration:none;
+    padding:4px 0px 4px 30px;
+    color:#444;
+    border-bottom:1px solid #bbb;
+    width:100%;
+    font-weight:100;
+}
+ul#kennisbank_tree li a:hover {
+    text-decoration:none;
+    color:#000;
+    background-color:#f4f4f4;
+    border-bottom:1px solid #aaa;
+}
+ul#kennisbank_tree li a.sub {
+    font-weight:900;
+}
+
+ul#kennisbank_tree li a.dicht.hover_edit,
+ul#kennisbank_tree li a.open.hover_edit {
+    background-color:#eee;
+    border-bottom:1px solid #aaa;
+}
+ul#kennisbank_tree li a.dicht.hover_del,
+ul#kennisbank_tree li a.open.hover_del {
+    background-color:#fdd;
+    border-bottom:1px solid #aaa;
+}
+ul#kennisbank_tree li a.dicht.hover_add,
+ul#kennisbank_tree li a.open.hover_add {
+    background-color:#eeffe4;
+    border-bottom:1px solid #aaa;
+}
+ul#kennisbank_tree li a.del {
+    margin:0;
+    padding:4px 0px 4px 0px;
+    background-image:none;
+    background:url('../../img/icons/delete.png') 7px 7px no-repeat;
+    position:absolute;
+    z-index:10;
+    top:0px;
+    right:-20px;
+    _right:0px;
+    width:30px;
+    border:0px;
+}
+ul#kennisbank_tree li a.del:hover {
+    background-color:#f88;
+}
+ul#kennisbank_tree li a.edit {
+    margin:0;
+    padding:4px 0px 4px 0px;
+    background-image:none;
+    background:url('../../img/icons/edit.png') 7px 5px no-repeat;
+    position:absolute;
+    z-index:20;
+    top:0px;
+    right:10px;
+    _right:30px;
+    width:30px;
+    border:0px;
+}
+ul#kennisbank_tree li a.edit:hover {
+    background-color:#ccc;
+}
+ul#kennisbank_tree li a.add {
+    margin:0;
+    padding:4px 0px 4px 0px;
+    background-image:none;
+    background:url('../../img/icons/add.png') 8px 7px no-repeat;
+    position:absolute;
+    z-index:30;
+    top:0px;
+    right:40px;
+    _right:60px;
+    width:30px;
+    border:0px;
+}
+ul#kennisbank_tree li a.add:hover {
+    background-color:#a6ffa6;
+}
+ul#kennisbank_tree li span.dicht {
+    cursor: pointer;
+    padding:4px 0px 4px 0px;
+    background-image:none;
+    background:url('../../img/icons/folder_dicht.png') 5px 4px no-repeat;
+    position:absolute;
+    z-index:30;
+    top:0px;
+    left: 25px;
+    width:30px;
+    height: 10px;
+    border:0px;
+}
+ul#kennisbank_tree li span.open {
+    padding:4px 0px 4px 0px;
+    background-image:none;
+    background:url('../../img/icons/folder_open.png') 5px 4px no-repeat;
+    position:absolute;
+    z-index:30;
+    top:0px;
+    left: 25px;
+    width: 30px;
+    height: 10px;
+    border:0px;
+}
+ul#kennisbank_tree li span.handler.dicht,
+ul#kennisbank_tree li span.handler.open {
+    cursor: move;
+    left: 0px;
+}
+ul#kennisbank_tree .placeholder {
+    border:1px dashed #f60;
+    margin:1px;
+    height:19px;
+    width:650px;
+    background-color:#ffc;
+}
+#toggle a {
+    display:inline-block;
+    text-decoration:none;
+    padding:4px 4px 4px 30px;
+    margin-top:.5em;
+    margin-bottom:.5em;
+}
+#toggle a.dicht {
+    background:url('../../img/icons/folder_dicht.png') 5px 4px no-repeat;
+}
+#toggle a.open {
+    background:url('../../img/icons/folder_open.png') 5px 4px no-repeat;
+}
+#toggle a:hover {
+    background-color:#eaf7ff;
+    color:#333;
+}

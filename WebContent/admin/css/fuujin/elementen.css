@@ -1,0 +1,95 @@
+/*
+Opmerking:Algemene stylesheet voor BE interactive-CMS
+
+Auteur:		Jeroen Evers
+Bedrijf:	BE interactive
+Contact:	jeroen@be-interactive.nl
+*/
+
+
+/* basis elementen */
+body, html {
+	margin:0;
+	padding:0;
+	background-color:#666;
+	font:.8em 'Verdana', sans-serif;
+	line-height:1.5em;
+}
+body {
+	min-width:950px;
+	text-align:center;
+}
+/*\*/
+* html td {
+	font:.75em 'Verdana', sans-serif;
+}
+
+h1 {
+	font:2.1em "Trebuchet MS", verdana, helvetica, sans-serif;
+	margin:0 0 3px 0;
+	font-weight:normal;
+}
+h1:first-letter {
+	text-transform:uppercase;
+}
+h2 {
+	font:2em "Trebuchet MS", verdana, helvetica, sans-serif;
+	margin:0 0 3px 0;
+	color:#f5a023;
+	font-weight:normal;
+}
+h2:first-letter {
+	text-transform:uppercase;
+}
+h3 {
+	font:1.7em "Trebuchet MS", verdana, helvetica, sans-serif;
+	color:#007cc3;
+	margin:8px 0 0 0;
+	font-weight:normal;
+}
+h3:first-letter {
+	text-transform:uppercase;
+}
+h4 {
+	font:1.3em "Trebuchet MS", verdana, helvetica, sans-serif;
+	color:#333;
+	margin:8px 0 0 0;
+	font-weight:normal;
+}
+h4:first-letter {
+	text-transform:uppercase;
+}
+
+form {
+	margin:1px;
+}
+
+a {
+	color:#000;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {
+	color:#999;
+	text-decoration:underline;
+	font-weight:bold;
+}
+a:focus {
+	-moz-outline: none;
+	outline: none;
+}
+a img {
+	border:0;
+}
+
+p {
+	width:90%;
+}
+
+small {
+	font-weight:100;
+}
+
+label {
+	cursor:pointer;
+}

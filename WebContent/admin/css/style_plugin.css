@@ -1,0 +1,22 @@
+/*
+Opmerking:Algemene stylesheet voor BE interactive-CMS
+
+Door:Jeroen Evers
+  BE interactive
+  jeroen@beinteractive.nl
+*/
+
+
+
+/* lay-out start */
+body, html {
+	margin:0;
+	padding:0;
+	background:#fff;
+	font:.8em 'Verdana', sans-serif;
+	line-height:1.5em;
+}
+
+html td {
+	font:.8em 'Verdana', sans-serif;
+}
