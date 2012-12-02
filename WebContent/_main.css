@@ -1,12 +1,13 @@
 html,body {
-	background-image: url(../img/bg/stercan.png), url(../img/bg/fbl.gif), url(../img/bg/fbr.gif);
+	background-image: url(../img/bg/stercan.png), url(../img/bg/fbl.gif),
+		url(../img/bg/fbr.gif);
 	background-position: right bottom, left top, right top;
 	background-repeat: no-repeat, no-repeat, no-repeat;
 	background-attachment: fixed, fixed, fixed;
 	background-color: #000;
 	color: #000;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 16px;
 	margin: 0 auto;
 	text-align: left;
 	color: #000;
@@ -18,111 +19,114 @@ html,body {
 	width: 1274px;
 }
 
-#background_top {
-	height: 584px;
-	width: 1274px;
+#navigation_menu {
+	position: absolute;
+	margin-left: 160px;
+	margin-top: 14px;
 }
 
-#background_top div img {
-	display: block;
-	margin: 0;
+#navigation_menu_left {
+	float: left;
+}
+
+#navigation_menu_left a {
+	color: white;
+	font-size: 24px;
+	font-style: normal;
+	margin: 0 10px;
+	text-decoration: none;
+	float: left;
+	padding-left: 24px;
+}
+
+#navigation_menu_right {
+	float: left;
+	margin-left: 200px;
+}
+
+#navigation_menu_right a {
+	color: white;
+	font-size: 24px;
+	font-style: normal;
+	margin: 0 10px 0 0;
+	text-decoration: none;
+	float: left;
+}
+
+#background_top {
+	float: left;
+	margin-bottom: -360px;
 }
 
 #background_top1 {
-	width: 174px;
-	height: 584px;
 	float: left;
+	padding-bottom: 0px;
 }
 
 #background_top2 {
-	width: 112px;
-	height: 584px;
 	float: left;
+	padding-bottom: 0px;
 }
 
 #background_top3 {
-	width: 10px;
-	height: 584px;
+	float: left;
+	padding-bottom: 0px;
+}
+
+#background_bottom {
+	float: left;
+	margin-top: -48px;
+}
+
+#background_bottom1 {
+	float: left;
+	margin-top: -476px;
+}
+
+#background_bottom2 {
 	float: left;
 }
 
-#background_top4 {
-	width: 100px;
-	height: 584px;
+#background_bottom3 {
 	float: left;
+	margin-top: -476px;
 }
 
-#background_top5 {
-	width: 19px;
-	height: 584px;
-	float: left;
+#top_image
+{
+	margin-left: -25px;
+}
+#content_holder {
+	background-image: url("../img/images/rfd_05.png");
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	min-height: 1000px;
+	margin-top: -45px;
 }
 
-#background_top6 {
-	width: 130px;
-	height: 584px;
+#content_holder_half {
+	width: 500px;
 	float: left;
+	padding-right: 25px;
+	border-right-style: solid;
+	border-right-width: 1px;
 }
 
-#background_top7 {
-	width: 9px;
-	height: 584px;
-	float: left;
+#content_news {
+	float: right;
 }
 
-#background_top8 {
-	width: 161px;
-	height: 584px;
-	float: left;
-}
-
-#background_top9 {
-	width: 14px;
-	height: 584px;
-	float: left;
-}
-
-#background_top10 {
-	width: 88px;
-	height: 584px;
-	float: left;
-}
-
-#background_top11 {
-	width: 34px;
-	height: 584px;
-	float: left;
-}
-
-#background_top12 {
-	width: 113px;
-	height: 584px;
-	float: left;
-}
-
-#background_top13 {
-	width: 20px;
-	height: 584px;
-	float: left;
-}
-
-#background_top14 {
-	width: 117px;
-	height: 584px;
-	float: left;
-}
-
-#background_top15 {
-	width: 173px;
-	height: 584px;
-	float: left;
+#content_news h1 {
+	margin-bottom: 10px;
 }
 
 #quick_games {
 	padding-left: 149px;
-    padding-top: 64px;
-    position: absolute;
-    width: 969px;
+	padding-top: 64px;
+	position: absolute;
+	width: 969px;
 }
 
 #quick_games_left {
@@ -145,27 +149,6 @@ html,body {
 	float: left;
 }
 
-#content_holder {
-	background-image: url("../img/images/rfd_23.png");
-	padding-left: 200px;
-	padding-right: 200px;
-	padding-bottom: 100px;
-}
-
-#content_holder_half {
-	width: 500px;
-	text-align: justify;
-	float: left;
-}
-
-#content_news {
-	float: right;
-}
-
-#content_news h1 {
-	margin-bottom: 10px;
-}
-
 .game_image {
 	display: block;
 	margin: 0 auto;
@@ -180,20 +163,25 @@ html,body {
 	margin-bottom: 10px;
 }
 
-#background_bottom {
-	background: url(../img/images/rfd_24.png) no-repeat;
-	height: 615px;
-	width: 1274px;
-	margin-top: -527px;
+#games_holder {
+	float: left;
+	margin: 0 auto;
+	width: 800px;
+	padding-left: 50px;
 }
 
-#games_holder {
-	margin: 0 auto;
+#games_holder div {
+	width: 800px;
+	height: 170px;
+}
+
+#games_holder div a {
+	float: left;
 }
 
 p {
 	margin: 0 0 1.3em;
-	padding: 0;
+	padding: 0 0 10px;
 }
 
 a {
@@ -215,7 +203,7 @@ h1 {
 	font-size: 30px;
 	font-style: italic;
 	font-weight: 700;
-	margin: 0;
+	margin: 0 0 20px;
 }
 
 h2 {
@@ -228,13 +216,13 @@ h3 {
 	font-size: 1.5em;
 	font-style: italic;
 	line-height: 1.5em;
-	margin: 0 0 4px;
+	margin: 0 0 15px;
 }
 
 h4 {
-	color: #ff397a;
+	color: red;
 	font-size: 1.2em;
-	margin: 4px 0 3px;
+	margin: 0;
 }
 
 form {
